@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# F CAM — See. Adjust. Understand.
 
-# Run and deploy your AI Studio app
+F CAM is an interactive cinematography reference and calculation tool designed to help filmmakers understand camera settings, framing, exposure, lighting, composition, and motion.
 
-This contains everything you need to run your app locally.
+**Core workflow:** Adjust → Observe → Understand.
 
-View your app in AI Studio: https://ai.studio/apps/64183f8c-40f2-4d01-a0ab-d842bd9a82ff
+## Features
 
-## Run Locally
+- Camera and lens fundamentals
+- Exposure calculations
+- Camera angles and shot types
+- Composition principles
+- Lighting and movement
+- Color and white balance
+- Frame rate and motion
+- Aspect ratios
+- Film language and continuity
 
-**Prerequisites:**  Node.js
+## Getting Started
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+See the installation instructions below to run F CAM locally.
