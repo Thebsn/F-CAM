@@ -1,0 +1,6 @@
+{
+  "name": "F CAM",
+  "description": "F CAM: See. Adjust. Understand. Interactive cinematography tools and optical camera simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
