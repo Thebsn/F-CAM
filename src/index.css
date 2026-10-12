@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@media (min-width: 1024px) {
+  .fcam-workspace-left {
+    width: var(--fcam-split, 58.33%) !important;
+    min-width: 360px;
+    max-width: calc(100% - 300px - 16px);
+  }
+  .fcam-workspace-right {
+    min-width: 300px;
+  }
+}
