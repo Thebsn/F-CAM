@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,8 +10,9 @@
       content="F CAM: See. Adjust. Understand. Interactive cinematography tools and optical camera simulator."
     />
 
-    <!-- Open Graph metadata for social media previews -->
+    <!-- Open Graph metadata for Reddit and other social previews -->
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="F CAM" />
     <meta
       property="og:title"
       content="F CAM — See. Adjust. Understand."
@@ -25,7 +27,13 @@
     />
     <meta
       property="og:image"
-      content="https://thebsn.github.io/F-CAM/fcam-preview.png"
+      content="https://raw.githubusercontent.com/Thebsn/F-CAM/main/assets/fcam-preview.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="F CAM — Interactive Cinematography Learning Platform"
     />
 
     <!-- Twitter / X preview -->
@@ -39,18 +47,23 @@
       content="Learn cinematography through interactive visualizations and controls."
     />
     <meta
-    name="twitter:image"
-    content="https://thebsn.github.io/F-CAM/fcam-preview.png"
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/Thebsn/F-CAM/main/assets/fcam-preview.png"
     />
 
     <title>F CAM — See. Adjust. Understand.</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body class="bg-[#080d1a] text-slate-100 antialiased overflow-x-hidden selection:bg-blue-600 selection:text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+```
